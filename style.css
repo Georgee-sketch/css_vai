@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(196, 229, 255);
+}
+#email{
+    width: 290px;
+    margin-top: 3px;
+}
+#email-{
+    width: 290px;
+    margin-top: 3px;
+}
+#password{
+    width: 290px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
