@@ -1,0 +1,130 @@
+.test{
+  color: blue;
+  background-color: black;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+button {
+  height: 45px;
+  width: 45px;
+  padding: 10px;
+  border: 2px solid red;
+  margin: 10px;
+}
+.centered-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+ body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+ }
+ html, body {
+     min-width: 400px;
+ }
+ body, input, button {
+   font-size: 14px;
+   font-family: Roboto,arial 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: #202124;
+ }
+ body {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+ }
+.top-section {
+  display: flex;
+}
+.left-side {
+
+}
+.right-side {
+
+}
+
+.app-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.google-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.profile-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.search-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.microphone-icon,
+.camera-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/*    /* aris comentari---
+  p tegis stili
+  . klasis stili
+  # id stili 
+: - damatebiti moqmedeba 
+:: chamateba/koreqtireba
+* - yvela elementi 
+:root - shemoklebuli saxelebi 
+p b dashoreba anu p s shignit
+mag. div > b sheexeba mxolod div-is shvils
+, - da 
+; - xasis dasruleba
+{} stilebis shemkvreli 
+ vw. vertical width
+ pt. more than pixels by a small amount 
+tu ragaca heightebs exeba. tu ar iyofeba gansazgvrul arialshi is arimushavebs
+rgba - bolos vuwert cifrs romelic gansazgvravs gamchirvalobas mag: 0.5 0.1
+dublireba aris rodesac ori cifri aris igive mag 667788 - 556677
+background - shorthand anu yvelafris chawera shegvidzlia. but it will cancel the other one
+surati
+feri
+size
+text align aligns the text in the middle or wherever you want it to go
+background repeat reapeats the selected photo 
+
+border value goes like - the size - type - color - in that order
+  
+   body{
+    height: 10000px;
+}
+
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  background-image: url(./../photo-masthead-375-BoK_p8LG.webp);
+  background-size: contain;
+  background-position: center;
+  background-repeat:no-repeat;
+  opacity: 0.8;
+  text-align: center;
+  line-height: 200px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+*/ 

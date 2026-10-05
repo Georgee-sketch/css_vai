@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programing stuff</title>
+    <link rel="stylesheet" href="./style/style.css"> 
+</head>
+<body>
+    <div class="top-section">
+        <div class="left-side">
+        <a href="https://about.google/" style="text-decoration: none;" target="_blank">About</a>
+        <a href="https://store.google.com/" style="text-decoration: none;" target="_blank">Store</a>
+        <img class="app-icon" 
+         src="pictures/images/catpitcute.jpg" alt="this is a cat">
+         <img class="profile-icon"
+         src="./pictures/images/13c6b3aaf25585c1b4b93e4bdc36fe62.jpg" alt="thomas the train">
+          <img class="google-icon"
+        src="./pictures/images/google.jpg" alt="google.com">
+         <img class="search-icon"
+            src="./images.png" alt="search icon">
+            <img class="camera-icon"
+            src="./camera-icon.jpg" alt="camera icon">
+             <img class="microphone-icon"
+            src="./images-mic.png" alt="microphone">
+    </div>
+    <div class="right-side">
+         <a href="https://mail.google.com/mail/u/0/#inbox" style="text-decoration: none;">Gmail</a>
+         <a href="https://www.istockphoto.com/" style="text-decoration: none;" target="_blank">Images</a>
+    </div>
+</div>
+    <div class="middle-section">
+        <form>
+            <label for="search"><h5>Search</label>
+            <input type="search" name="search" id="search">
+            <button type="submit">Search</button>
+            <button type="submit">im feeling great</button>
+        </form>
+
+    </div>
+    <div class="bottom-section"></div>
+        <div class="bottom-left">
+            <a href="https://dictionary.cambridge.org/dictionary/english/advertisement" align="bottom" target="_blank" style="text-decoration: none;">Advertisement</a>
+            <a href="https://www.shopify.com/il/blog/business-success?term=business&adid=699051975352&campaignid=21270911703&utm_medium=cpc&utm_source=google&matchtype=e&network=g&gad_source=1&gad_campaignid=21270911703&gbraid=0AAAAAC3NCDpqCqy9J0wtnqR49cYnO-S33&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5Rqgw_6cQRK9P478T0hJl6aBZm1K-aErNUSlYm0Hgqt52N1fCUMzYKKAaAn6zEALw_wcB" target="_blank" style="text-decoration: none;">Business</a>
+            <a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" style="text-decoration: none;">How search works</a>
+        </div>
+        <div class="bottom-middle">
+            <a href="https://en.wikipedia.org/wiki/Carbon_footprint" target="_blank" style="text-decoration: none;">Carbon footprint</a>
+        </div>
+        <div class="bottom-right">
+            <a href="https://www.google.com/policies/privacy/archive/20010104-20040701/" target="_blank" style="text-decoration: none;">Privacy</a>
+            <a href="https://policies.google.com/terms?hl=en-US&client_theme=dark" target="_blank" style="text-decoration: none;">Terms</a>
+            <a href="https://support.google.com/accounts/answer/3118621?hl=en" target="_blank" style="text-decoration: none;">Settings</a>
+        </div>
+</body>
+</html>
+
+
+
+<!-- * - universal selector 
+   class selector - selects all elements with the given class starts with a dot . followed by the class attribute
+   id selectors are the same as class selectors select all elements with the given id (element can only have one id) for id we use #.... use id's sparingly (classes are better)
+   group selectors can be initiated with a comma , like h1, h2, p,  , means "and" so its like h1 and h2 and p... ect
+   theres also chaining selectors allows us to be more specific.. we style the element with all these classes... we can group them with no space inbetween like .class.class2 ect....
+   we can also create selectors based on html hierarchy using descendant combinations placing spaces between selectors indicate a parent child relationship like .parent.child "div p" with a space between selectors. this instructs css to style all elements inside this element (inside the parent)
+   first specificity rule defines which styles to use when conflicts occur while styling (id gets more priority over class[id > class] and class gets more priority over elements[class > elements])
+   second specificity rule is if two selectors are the same priority then css will follow the order of appearance. the one that is defined last, takes precendence and overrides any styles set by earlier one
+   this is because css processes rules from top to bottom
+   its best to keep the selectors as simple as possible. use single class selectors to make the code more readable and debuggable
+   propertiees :)
+   
+   
+   
+   
+   --------------------------------
+   
+   
+   
+   
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programing stuff</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="top-section">
+        <div class="left-side">
+        <a href="https://about.google/" style="text-decoration: none;" target="_blank">About</a>
+        <a href="https://store.google.com/" style="text-decoration: none;" target="_blank">Store</a>
+    </div>
+    <div class="right-side">
+         <a href="https://mail.google.com/mail/u/0/#inbox" style="text-decoration: none;" target="_blank">Gmail</a>
+         <a href="https://www.istockphoto.com/" style="text-decoration: none;" target="_blank">Images</a>
+         <img src="./pictures/images/13c6b3aaf25585c1b4b93e4bdc36fe62.jpg" width="75px" align="right" alt="thomas the train">
+         <img src="pictures/images/catpitcute.jpg" width="100px" align="center" alt="this is a cat">
+    </div>
+</div>
+    <div class="middle-section" align="center">
+        <img src="./pictures/images/google.jpg" width="250" alt="google.com">
+        <form>
+            <label for="search"><h5>Search</label>
+            <input type="search" name="search" id="search">
+            <button type="submit">Search</button>
+            <button type="submit">im feeling great</button>
+        </form>
+
+    </div>
+    <div class="bottom-section"></div>
+        <div class="bottom-left">
+            <a href="https://dictionary.cambridge.org/dictionary/english/advertisement" align="bottom" target="_blank" style="text-decoration: none;">Advertisement</a>
+            <a href="https://www.shopify.com/il/blog/business-success?term=business&adid=699051975352&campaignid=21270911703&utm_medium=cpc&utm_source=google&matchtype=e&network=g&gad_source=1&gad_campaignid=21270911703&gbraid=0AAAAAC3NCDpqCqy9J0wtnqR49cYnO-S33&gclid=Cj0KCQjwlNPVBhCMARIsAPZ5Rqgw_6cQRK9P478T0hJl6aBZm1K-aErNUSlYm0Hgqt52N1fCUMzYKKAaAn6zEALw_wcB" target="_blank" style="text-decoration: none;">Business</a>
+            <a href="https://developers.google.com/search/docs/fundamentals/how-search-works" target="_blank" style="text-decoration: none;">How search works</a>
+        </div>
+        <div class="bottom-middle">
+            <a href="https://en.wikipedia.org/wiki/Carbon_footprint" target="_blank" style="text-decoration: none;">Carbon footprint</a>
+        </div>
+        <div class="bottom-right">
+            <a href="https://www.google.com/policies/privacy/archive/20010104-20040701/" target="_blank" style="text-decoration: none;">Privacy</a>
+            <a href="https://policies.google.com/terms?hl=en-US&client_theme=dark" target="_blank" style="text-decoration: none;">Terms</a>
+            <a href="https://support.google.com/accounts/answer/3118621?hl=en" target="_blank" style="text-decoration: none;">Settings</a>
+        </div>
+</body>
+</html>-->
+   

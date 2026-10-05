@@ -1,0 +1,40 @@
+body{
+    min-height: 800px;
+    display: flex;
+    border: 8px solid black;
+    gap: 10px;
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; */
+    /* flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* justify-content: space-evenly;
+    align-items: center; */
+}
+#box-1{
+    flex-shrink: 0;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    font-size: 40pt;
+}
+
+
+
+
+/* flex-shrink shrinks the divs or elements when the screen is shrunken down
+flex-grow will stretch the div or the elements when the screen is stretched
+min-width & max-width -- limit flex-grow & shrink
+
+
+justify-content -- main-axis Alignment
+align-items -- cross-axis aligment
+flex-wrap -- responsive line breaks
+*/
