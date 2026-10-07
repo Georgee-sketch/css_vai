@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght,GRAD@0,8..144,100..900,44;1,8..144,100..900,44&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: paradise;
+    src: url(./Lemon\ Slice.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "roboto" sans-serif;
+}
+
+body{
+    background-color: #3e151e;
+}
+
+
+
+nav .navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navbar .left{
+    display: flex;
+    gap: 8px;
+}
+nav .navbar .left i{
+    font-size: 36px;
+}
+nav .navbar .left span{
+      font-size: 28px;
+}
+
+nav .navbar .right{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+}
+
+header{
+    padding: 80px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .left{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+header .container .left h1{
+    font-family: paradise;
+    color: orange;
+    font-size: 48px;
+}
+
+header .container .left h2{
+    font-size: 40px;
+    color: white;
+}
+
+header .container .left p{
+    font-size: 24px;
+    color: rgb(242, 231, 231);
+}
+
+header .container .left .buttons{
+    display: flex;
+    gap: 20px;
+}
+
+header .container .left .buttons .order{
+    background-color: orange;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+
+header .container .left .buttons .contact{
+    background-color: #3e151e;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 12px 24px;
+    border: none;
+    outline: 2px solid black;
+    border-radius: 50px;
+    color: white;
+}
